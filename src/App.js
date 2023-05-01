@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutMe from "./components/About-me/AboutMe";
 import Home from "./components/Home/Home";
 import Navigation from "./components/Navigation";
 
@@ -7,8 +8,8 @@ function App() {
     <>
       <Navigation />
       <Home />
+      <AboutMe />
     </>
-    //Header
     //About me
     // Projects
     // Contact

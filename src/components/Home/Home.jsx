@@ -8,7 +8,7 @@ import Stack from "./Stack";
 
 const Home = () => {
   return (
-    <section id="home" className={classes["home-section"]}>
+    <section id="home" className={`${classes["home-section"]} centered`}>
       <div className={classes["home-section__info"]}>
         <h1>Front-end react.js developer</h1>
         <p>
@@ -16,19 +16,35 @@ const Home = () => {
           to new opportunities. Let's connect and bring your ideas to life!
         </p>
         <div className={classes["home-section__icons-container"]}>
-          <a href="#" className={classes.icon}>
+          <a
+            href="https://t.me/maksym_bohun"
+            target="_blank"
+            className={classes.icon}
+          >
             <img src={telegramIcon} alt="telegram icon" />
           </a>
 
-          <a href="#" className={classes.icon}>
+          <a
+            href="https://www.linkedin.com/in/maksym-bohun-9a5679227/"
+            target="_blank"
+            className={classes.icon}
+          >
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
 
-          <a href="#" className={classes.icon}>
+          <a
+            href="https://github.com/maksym-bohun"
+            target="_blank"
+            className={classes.icon}
+          >
             <img src={githubIcon} alt="github icon" />
           </a>
 
-          <a href="#" className={classes.icon}>
+          <a
+            href="mailto:maks.boggun@gmail.com"
+            target="_blank"
+            className={classes.icon}
+          >
             <img src={emailIcon} alt="email icon" />
           </a>
         </div>
@@ -46,8 +62,8 @@ const Home = () => {
             </div>
 
             <div className={classes["flip-box-back"]}>
-              <p>Check my projects!</p>
-              <a href="#">To projects &darr;</a>
+              <p>Read more about me!</p>
+              <a href="#">About me &darr;</a>
             </div>
           </div>
         </div>

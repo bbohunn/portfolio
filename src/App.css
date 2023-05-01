@@ -5,3 +5,8 @@ html {
 body {
   color: #343a40;
 }
+
+.centered {
+  width: 45%;
+  margin: 0 auto;
+}

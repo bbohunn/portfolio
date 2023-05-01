@@ -10,7 +10,7 @@ const Navigation = (props) => {
             <a href="#home">Home</a>
           </li>
           <li className={classes.navigation__item}>
-            <a href="#">About me</a>
+            <a href="#about-me">About me</a>
           </li>
           <li className={classes.navigation__item}>
             <a href="#">Projects</a>

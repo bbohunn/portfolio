@@ -1,8 +1,6 @@
 .home-section {
-  width: 45%;
-  margin: 0 auto;
-  padding: 15rem;
-  padding-top: 25rem;
+  padding-bottom: 7rem;
+  padding-top: 20rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
@@ -110,6 +108,12 @@
   padding: 0.7rem 2rem;
   cursor: pointer;
   border-radius: 3px;
+  font-weight: 500;
+}
+
+.flip-box-back a:hover,
+.flip-box-back a:active {
+  background-color: rgb(255, 255, 255);
 }
 
 .stack {
