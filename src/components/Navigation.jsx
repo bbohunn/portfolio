@@ -13,10 +13,10 @@ const Navigation = (props) => {
             <a href="#about-me">About me</a>
           </li>
           <li className={classes.navigation__item}>
-            <a href="#">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className={classes.navigation__item}>
-            <a href="#">Contact me</a>
+            <a href="#contact">Contact me</a>
           </li>
         </ul>
       </div>

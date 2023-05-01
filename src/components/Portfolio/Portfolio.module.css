@@ -1,0 +1,54 @@
+.portfolio-section {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
+.portfolio-section h2 {
+  font-size: 3rem;
+}
+
+.portfolio-section__projects {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  align-items: center;
+  row-gap: 6rem;
+  column-gap: 3rem;
+}
+
+.portfolio-section__image {
+  width: 100%;
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+
+.portfolio-section__info {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  /* text-align: center; */
+}
+
+.portfolio-section__info:nth-child(odd) {
+  padding-right: 2rem;
+}
+
+.portfolio-section__info:nth-child(even) {
+  padding-left: 2rem;
+}
+
+.portfolio-section__info h3 {
+  font-size: 2.4rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.portfolio-section__info p {
+  margin: 1rem 0;
+}
+
+.actions {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 3.4rem;
+  justify-content: center;
+}

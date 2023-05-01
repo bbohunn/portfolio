@@ -4,8 +4,11 @@
   align-items: center;
   position: fixed;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 1rem 1.5rem;
   font-size: 2rem;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
 .navigation__list {
@@ -23,7 +26,7 @@
 }
 
 .navigation__item:last-child {
-  margin-right: 4rem;
+  margin-right: 5rem;
 }
 
 .navigation__item a:link,

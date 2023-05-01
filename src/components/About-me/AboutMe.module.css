@@ -1,5 +1,6 @@
 .about-section {
-  padding: 14rem 0;
+  padding-top: 25rem;
+  padding-bottom: 10rem;
   display: grid;
   grid-template-columns: 5fr 4fr;
   align-items: center;
@@ -62,4 +63,22 @@
 .about-section__info p {
   margin-top: 1rem;
   font-size: 1.8rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px) {
+  .image {
+    width: 60%;
+  }
+
+  .about-section__info {
+    font-size: 1.7rem;
+  }
+
+  .about-section__info p {
+    font-size: 1.5rem;
+  }
+
+  .image--3 {
+    top: 40%;
+  }
 }
