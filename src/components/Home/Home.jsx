@@ -63,7 +63,7 @@ const Home = () => {
 
             <div className={classes["flip-box-back"]}>
               <p>Read more about me!</p>
-              <a href="#">About me &darr;</a>
+              <a href="#about-me">About me &darr;</a>
             </div>
           </div>
         </div>

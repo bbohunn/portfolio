@@ -1,11 +1,27 @@
 import classes from "./AboutMe.module.css";
-import aboutImage from "./../../images/about-photo-2.jpg";
+import aboutImage3 from "./../../images/about-photo-2.jpg";
+import aboutImage2 from "./../../images/about-photo.jpg";
+import aboutImage from "./../../images/about-photo-1.jpg";
 
 const AboutMe = () => {
   return (
     <section className={`${classes["about-section"]} centered`} id="about-me">
       <div className={classes["about-section__image"]}>
-        <img src={aboutImage} alt="about image" />
+        <img
+          src={aboutImage}
+          alt="about image"
+          className={`${classes.image} ${classes["image--1"]}`}
+        />
+        <img
+          src={aboutImage2}
+          alt="about image"
+          className={`${classes.image} ${classes["image--2"]}`}
+        />
+        <img
+          src={aboutImage3}
+          alt="about image"
+          className={`${classes.image} ${classes["image--3"]}`}
+        />
       </div>
       <div className={classes["about-section__info"]}>
         <h2>About me</h2>
