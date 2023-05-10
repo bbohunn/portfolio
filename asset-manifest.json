@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.41ee2941.css",
-    "main.js": "/portfolio/static/js/main.b7684d31.js",
+    "main.js": "/portfolio/static/js/main.bb614e85.js",
     "static/media/about-photo-2.jpg": "/portfolio/static/media/about-photo-2.b66571d38c615376ff77.jpg",
     "static/media/about-photo-1.jpg": "/portfolio/static/media/about-photo-1.62f73ff7843227a95b4f.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.749c9a31596743f40887.jpg",
     "static/media/about-photo.jpg": "/portfolio/static/media/about-photo.573ada2e60a826af9d15.jpg",
-    "static/media/me.jpg": "/portfolio/static/media/me.d1656b586d120708d381.jpg",
     "static/media/kanban.jpg": "/portfolio/static/media/kanban.7f3b8a3fca13d0777534.jpg",
     "static/media/book-store.jpg": "/portfolio/static/media/book-store.10754b347ff5e5accec5.jpg",
     "static/media/typing-trainer.jpg": "/portfolio/static/media/typing-trainer.e588bb1a2fb56488638d.jpg",
@@ -25,10 +25,10 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
     "main.41ee2941.css.map": "/portfolio/static/css/main.41ee2941.css.map",
-    "main.b7684d31.js.map": "/portfolio/static/js/main.b7684d31.js.map"
+    "main.bb614e85.js.map": "/portfolio/static/js/main.bb614e85.js.map"
   },
   "entrypoints": [
     "static/css/main.41ee2941.css",
-    "static/js/main.b7684d31.js"
+    "static/js/main.bb614e85.js"
   ]
 }
