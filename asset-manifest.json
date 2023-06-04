@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.867e2ec6.css",
-    "main.js": "/portfolio/static/js/main.76247b27.js",
+    "main.css": "/portfolio/static/css/main.b953bc79.css",
+    "main.js": "/portfolio/static/js/main.d2cd9208.js",
+    "static/media/BookShop.MP4": "/portfolio/static/media/BookShop.352e410e5bf2a39aef5a.MP4",
+    "static/media/TypingTrainer.MP4": "/portfolio/static/media/TypingTrainer.5ec9f6b213e37e3e924d.MP4",
+    "static/media/Electro.mp4": "/portfolio/static/media/Electro.cff2bcd86b141e875191.mp4",
     "static/media/about-photo-2.jpg": "/portfolio/static/media/about-photo-2.b66571d38c615376ff77.jpg",
     "static/media/about-photo-1.jpg": "/portfolio/static/media/about-photo-1.62f73ff7843227a95b4f.jpg",
+    "static/media/Kanban.MP4": "/portfolio/static/media/Kanban.bcdda5d64be43d6b10de.MP4",
+    "static/media/Todo.MP4": "/portfolio/static/media/Todo.2ac7f645d3f64c878d27.MP4",
     "static/media/about-photo.jpg": "/portfolio/static/media/about-photo.573ada2e60a826af9d15.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.d1656b586d120708d381.jpg",
     "static/media/kanban.jpg": "/portfolio/static/media/kanban.7f3b8a3fca13d0777534.jpg",
@@ -24,11 +29,11 @@
     "static/media/telegram.png": "/portfolio/static/media/telegram.20a60b580e642d0a24f1.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.867e2ec6.css.map": "/portfolio/static/css/main.867e2ec6.css.map",
-    "main.76247b27.js.map": "/portfolio/static/js/main.76247b27.js.map"
+    "main.b953bc79.css.map": "/portfolio/static/css/main.b953bc79.css.map",
+    "main.d2cd9208.js.map": "/portfolio/static/js/main.d2cd9208.js.map"
   },
   "entrypoints": [
-    "static/css/main.867e2ec6.css",
-    "static/js/main.76247b27.js"
+    "static/css/main.b953bc79.css",
+    "static/js/main.d2cd9208.js"
   ]
 }
