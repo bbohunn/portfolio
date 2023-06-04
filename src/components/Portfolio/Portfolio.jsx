@@ -14,11 +14,16 @@ const Portfolio = () => {
     >
       <h2>My projects</h2>
       <div className={classes["portfolio-section__projects"]}>
-        <img
-          src={todoImage}
-          alt=""
-          className={classes["portfolio-section__image"]}
-        />
+        <video
+          width={500}
+          style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+          autoPlay
+          loop
+          muted
+        >
+          <source src={require("../../videos/Todo.MP4")} type="video/mp4" />
+        </video>
+
         <div className={classes["portfolio-section__info"]}>
           <h3>Todo-list</h3>
           <p>
@@ -51,16 +56,29 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <img
-          src={bookShopImage}
-          alt=""
-          className={classes["portfolio-section__image"]}
-        />
-        <img
-          src={typingTrainerImage}
-          alt=""
-          className={classes["portfolio-section__image"]}
-        />
+        <video
+          width={500}
+          style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+          autoPlay
+          loop
+          muted
+        >
+          <source src={require("../../videos/BookShop.MP4")} type="video/mp4" />
+        </video>
+
+        <video
+          width={500}
+          style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+          autoPlay
+          loop
+          muted
+        >
+          <source
+            src={require("../../videos/TypingTrainer.MP4")}
+            type="video/mp4"
+          />
+        </video>
+
         <div className={classes["portfolio-section__info"]}>
           <h3>Typing Trainer</h3>
           <p>
@@ -90,11 +108,40 @@ const Portfolio = () => {
             <DemoButton url="https://maksym-bohun.github.io/kanban-board/" />
           </div>
         </div>
-        <img
-          src={kanbanImage}
-          alt=""
-          className={classes["portfolio-section__image"]}
-        />
+
+        <video
+          width={500}
+          style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+          autoPlay
+          loop
+          muted
+        >
+          <source src={require("../../videos/Kanban.MP4")} type="video/mp4" />
+        </video>
+
+        <video
+          width={500}
+          style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+          autoPlay
+          loop
+          muted
+        >
+          <source src={require("../../videos/Electro.mp4")} type="video/mp4" />
+        </video>
+
+        <div className={classes["portfolio-section__info"]}>
+          <h3>Electro</h3>
+          <p>
+            GitHub Kanban Board: Streamline your project management by pasting
+            your GitHub repo URL and instantly organizing issues into ToDo, In
+            Progress, and Done columns. Effortlessly track progress, collaborate
+            with your team, and stay organized in one user-friendly interface.
+            Boost your productivity with the power of the GitHub Kanban Board.
+          </p>
+          <div className={classes.actions}>
+            <GithubButton url="https://github.com/maksym-bohun/Electro_" />
+          </div>
+        </div>
       </div>
     </section>
   );
