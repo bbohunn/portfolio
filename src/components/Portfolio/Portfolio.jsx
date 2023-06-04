@@ -132,11 +132,16 @@ const Portfolio = () => {
         <div className={classes["portfolio-section__info"]}>
           <h3>Electro</h3>
           <p>
-            GitHub Kanban Board: Streamline your project management by pasting
-            your GitHub repo URL and instantly organizing issues into ToDo, In
-            Progress, and Done columns. Effortlessly track progress, collaborate
-            with your team, and stay organized in one user-friendly interface.
-            Boost your productivity with the power of the GitHub Kanban Board.
+            Electro is an innovative application that simplifies the buying and
+            selling of electronics. You can easily find the desired item or post
+            a sales ad in just a few simple steps. The app offers a
+            user-friendly interface with filters based on categories, cities,
+            and other specifications to help you find exactly what you need. In
+            the Electro app, you always have easy access to the seller's contact
+            information, including their phone number. With this feature, you
+            can directly get in touch with the seller to ask questions, discuss
+            transaction details, or arrange a meeting. With Electro, you can
+            quickly and confidently discover and sell electronics.
           </p>
           <div className={classes.actions}>
             <GithubButton url="https://github.com/maksym-bohun/Electro_" />
