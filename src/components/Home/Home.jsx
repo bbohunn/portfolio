@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section id="home" className={`${classes["home-section"]} centered`}>
       <div className={classes["home-section__info"]}>
-        <h1>Front-end react.js developer</h1>
+        <h1>Full-stack react.js developer</h1>
         <p>
           Hi, I'm Maksym, a Front-end React.js Developer based in Kyiv. I'm open
           to new opportunities. Let's connect and bring your ideas to life!

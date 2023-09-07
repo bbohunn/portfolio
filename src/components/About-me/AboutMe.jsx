@@ -26,15 +26,17 @@ const AboutMe = () => {
       <div className={classes["about-section__info"]}>
         <h2>About me</h2>
         <p>
-          I am a second-year student at the Kyiv Polytechnic Institute, where I
-          study computer science. As a junior front-end developer, I have
-          various skills in HTML, CSS, Sass, JavaScript, TypeScript, React, and
-          Git. I focus on creating responsive websites that offer a flawless
-          user experience. My focus is on creating dynamic and engaging
-          interfaces by writing clean, optimized code and using advanced
-          development tools and techniques. Moreover, I thrive in collaborative
-          environments, working effectively with cross-functional teams to build
-          exceptional web applications.
+          I'm a third-year computer science student at Kyiv Polytechnic
+          Institute, specializing in frontend and full-stack development.
+          Proficient in HTML, CSS, Sass, JavaScript, TypeScript, React, Node.js,
+          MongoDB, and Git, I'm dedicated to crafting user-centric web
+          experiences. My optimized code, coupled with advanced development
+          tools, enables me to create dynamic and engaging interfaces.
+          Collaboration is my forte, as I thrive in cross-functional teams,
+          contributing to the development of exceptional web applications. As I
+          continue my journey, I remain committed to staying current in the
+          ever-evolving web development landscape, eager to bring my skills to
+          innovative digital projects.
         </p>
       </div>
     </section>
