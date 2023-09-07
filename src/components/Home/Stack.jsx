@@ -5,6 +5,8 @@ import cssIcon from "./../../images/css-3.png";
 import sassIcon from "./../../images/sass.png";
 import githubIcon from "./../../images/github.png";
 import typescriptIcon from "./../../images/typescript.png";
+import nodejsIcon from "./../../images/nodejs.png";
+import mongodbIcon from "./../../images/mongodb.png";
 import classes from "./Stack.module.css";
 
 const Stack = (props) => {
@@ -19,6 +21,8 @@ const Stack = (props) => {
           alt="typescript icon"
           className={classes.icon}
         />
+        <img src={nodejsIcon} alt="node.js icon" className={classes.icon} />
+        <img src={mongodbIcon} alt="mongodb icon" className={classes.icon} />
         <img src={htmlIcon} alt="html icon" className={classes.icon} />
         <img src={cssIcon} alt="css icon" className={classes.icon} />
         <img src={sassIcon} alt="sass icon" className={classes.icon} />

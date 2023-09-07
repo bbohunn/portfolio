@@ -26,3 +26,20 @@
 .icon {
   width: 3.8rem;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .technologies-stack {
+    flex-direction: column;
+  }
+
+  .technologies-stack h3 {
+    border-right: 0px solid #ccc;
+    margin-bottom: 1.6rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+
+  .icon {
+    width: 4.2rem;
+  }
+}

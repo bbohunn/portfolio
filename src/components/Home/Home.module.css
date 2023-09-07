@@ -119,3 +119,21 @@
 .stack {
   grid-column: 1/-1;
 }
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  .home-section {
+    padding-bottom: 7rem;
+    padding-top: 15rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .flip-box {
+    background-color: transparent;
+    width: 23rem;
+    height: 23rem;
+    perspective: 1000px;
+  }
+}
