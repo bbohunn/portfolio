@@ -162,7 +162,7 @@ const Portfolio = () => {
             muted
           >
             <source
-              src={require("../../videos/TypingTrainer.mov")}
+              src={require("../../videos/TypingTrainer.mp4")}
               type="video/mp4"
             />
           </video>
@@ -212,7 +212,7 @@ const Portfolio = () => {
             muted
           >
             <source
-              src={require("../../videos/BookShop.mov")}
+              src={require("../../videos/BookShop.mp4")}
               type="video/mp4"
             />
           </video>

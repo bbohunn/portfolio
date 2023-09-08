@@ -35,8 +35,30 @@
   text-decoration: none;
 }
 
+.navigation__menu-icon {
+  display: none;
+}
+
+.navigation__sections {
+}
+
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .navigation {
     font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navigation {
+    padding: 2rem 1.5rem;
+  }
+
+  .navigation__sections {
+    display: none;
+  }
+
+  .navigation__menu-icon {
+    display: block;
+    margin-right: 5rem;
   }
 }

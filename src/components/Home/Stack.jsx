@@ -13,7 +13,7 @@ const Stack = (props) => {
   return (
     <div className={`${classes["technologies-stack"]} ${props.className}`}>
       <h3>My technologies stack</h3>
-      <div>
+      <div className={classes["technologies-stack__container"]}>
         <img src={reactIcon} alt="react icon" className={classes.icon} />
         <img src={jsIcon} alt="js icon" className={classes.icon} />
         <img

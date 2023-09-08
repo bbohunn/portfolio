@@ -9,11 +9,20 @@ import Stack from "./Stack";
 const Home = () => {
   return (
     <section id="home" className={`${classes["home-section"]} centered`}>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse
+        incidunt mollitia consequuntur suscipit eius modi excepturi pariatur,
+        ipsam cumque veniam, aspernatur molestiae nisi officiis doloribus
+        dolores explicabo repellat exercitationem officia error sint dignissimos
+        nemo? Ipsa fugiat reprehenderit facere illo.
+      </p>
       <div className={classes["home-section__info"]}>
-        <h1>Full-stack react.js developer</h1>
-        <p>
-          Hi, I'm Maksym, a Full-stack React.js Developer based in Kyiv. I'm open
-          to new opportunities. Let's connect and bring your ideas to life!
+        <h1 className={classes["home-section__info__header"]}>
+          Full-stack react.js developer
+        </h1>
+        <p className={classes["home-section__info__text"]}>
+          Hi, I'm Maksym, a Full-stack React.js Developer based in Kyiv. I'm
+          open to new opportunities. Let's connect and bring your ideas to life!
         </p>
         <div className={classes["home-section__icons-container"]}>
           <a
@@ -48,22 +57,22 @@ const Home = () => {
             <img src={emailIcon} alt="email icon" />
           </a>
         </div>
-      </div>
 
-      <div className={classes["home-section__photo"]}>
-        <div className={classes["flip-box"]}>
-          <div className={classes["flip-box-inner"]}>
-            <div className={classes["flip-box-front"]}>
-              <img
-                src={myPhoto}
-                alt="My photo"
-                className={classes["my-photo"]}
-              />
-            </div>
+        <div className={classes["home-section__photo"]}>
+          <div className={classes["flip-box"]}>
+            <div className={classes["flip-box-inner"]}>
+              <div className={classes["flip-box-front"]}>
+                <img
+                  src={myPhoto}
+                  alt="My photo"
+                  className={classes["my-photo"]}
+                />
+              </div>
 
-            <div className={classes["flip-box-back"]}>
-              <p>Read more about me!</p>
-              <a href="#about-me">About me &darr;</a>
+              <div className={classes["flip-box-back"]}>
+                <p>Read more about me!</p>
+                <a href="#about-me">About me &darr;</a>
+              </div>
             </div>
           </div>
         </div>
