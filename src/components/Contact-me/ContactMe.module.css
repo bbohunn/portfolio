@@ -89,3 +89,44 @@
     /* display: none; */
   }
 }
+
+@media screen and (max-width: 500px) {
+  .contact-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .icon {
+    width: 2.8rem;
+    height: 2.8rem;
+    position: absolute;
+    /* display: none; */
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .actions > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .actions .actions__info {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .actions .actions__info {
+    margin-left: 4rem;
+  }
+
+  .actions .actions__info h3 {
+    font-size: 1.6rem;
+  }
+}

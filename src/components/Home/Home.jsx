@@ -9,21 +9,10 @@ import Stack from "./Stack";
 const Home = () => {
   return (
     <section id="home" className={`${classes["home-section"]} centered`}>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse
-        incidunt mollitia consequuntur suscipit eius modi excepturi pariatur,
-        ipsam cumque veniam, aspernatur molestiae nisi officiis doloribus
-        dolores explicabo repellat exercitationem officia error sint dignissimos
-        nemo? Ipsa fugiat reprehenderit facere illo.
-      </p>
       <div className={classes["home-section__info"]}>
         <h1 className={classes["home-section__info__header"]}>
           Full-stack react.js developer
         </h1>
-        <p className={classes["home-section__info__text"]}>
-          Hi, I'm Maksym, a Full-stack React.js Developer based in Kyiv. I'm
-          open to new opportunities. Let's connect and bring your ideas to life!
-        </p>
         <div className={classes["home-section__icons-container"]}>
           <a
             href="https://t.me/maksym_bohun"
@@ -57,6 +46,10 @@ const Home = () => {
             <img src={emailIcon} alt="email icon" />
           </a>
         </div>
+        <p className={classes["home-section__info__text"]}>
+          Hi, I'm Maksym, a full-stack React.js Developer based in Kyiv. I'm
+          open to new opportunities. Let's connect and bring your ideas to life!
+        </p>
 
         <div className={classes["home-section__photo"]}>
           <div className={classes["flip-box"]}>

@@ -161,26 +161,22 @@
     padding-top: 10rem;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-  }
-  .home-section__info h1 {
-    font-size: 2.8rem;
-  }
-
-  .home-section__info {
-    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .home-section__info__header {
-    font-size: 3.8rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #343a40;
     margin: 0;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    margin-bottom: 1.8rem;
+
+    /* grid-column: 1/2;
+    grid-row: 1/2; */
   }
   .home-section__info__text {
     order: 4;
+    text-align: justify;
   }
 
   .home-section__info {
@@ -194,6 +190,7 @@
 
   .home-section__icons-container {
     order: 3;
+    margin-bottom: 2rem;
   }
 
   /* .icon img {
@@ -202,5 +199,14 @@
 
   .home-section__photo {
     order: 2;
+    width: 70%;
+  }
+
+  /* --------------- */
+
+  .flip-box {
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2.1rem;
   }
 }

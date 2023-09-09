@@ -6,6 +6,7 @@ import aboutImage from "./../../images/about-photo-1.jpg";
 const AboutMe = () => {
   return (
     <section className={`${classes["about-section"]} centered`} id="about-me">
+      <h2 className={classes["header-mobile"]}>About me</h2>
       <div className={classes["about-section__image"]}>
         <img
           src={aboutImage}
