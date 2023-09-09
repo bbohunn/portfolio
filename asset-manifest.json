@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0bc39485.css",
-    "main.js": "/portfolio/static/js/main.f0102cd9.js",
+    "main.css": "/portfolio/static/css/main.33dc5468.css",
+    "main.js": "/portfolio/static/js/main.7b07c360.js",
     "static/media/TypingTrainer.mp4": "/portfolio/static/media/TypingTrainer.004f870ff11d10ce4b72.mp4",
     "static/media/BookShop.mp4": "/portfolio/static/media/BookShop.a0e549545fc4456c4ac9.mp4",
     "static/media/kanban.mov": "/portfolio/static/media/kanban.9ea8dfc3463f5f82093e.mov",
@@ -30,11 +30,11 @@
     "static/media/telegram.png": "/portfolio/static/media/telegram.20a60b580e642d0a24f1.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.0bc39485.css.map": "/portfolio/static/css/main.0bc39485.css.map",
-    "main.f0102cd9.js.map": "/portfolio/static/js/main.f0102cd9.js.map"
+    "main.33dc5468.css.map": "/portfolio/static/css/main.33dc5468.css.map",
+    "main.7b07c360.js.map": "/portfolio/static/js/main.7b07c360.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bc39485.css",
-    "static/js/main.f0102cd9.js"
+    "static/css/main.33dc5468.css",
+    "static/js/main.7b07c360.js"
   ]
 }
