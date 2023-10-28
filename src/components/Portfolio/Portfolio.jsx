@@ -244,14 +244,14 @@ const Portfolio = () => {
               user-friendly interface with filters based on categories, cities,
               and other specifications to help you find exactly what you need.
               In the Electro app, you always have easy access to the seller's
-              contact information, including their phone number. With this
-              feature, you can directly get in touch with the seller to ask
-              questions, discuss transaction details, or arrange a meeting. With
-              Electro, you can quickly and confidently discover and sell
-              electronics.
+              contact information, including their phone number. You can also
+              chat width seller in real time. With this feature, you can
+              directly get in touch with the seller to ask questions, discuss
+              transaction details, or arrange a meeting. With Electro, you can
+              quickly and confidently discover and sell electronics.
             </p>
             <div className={classes.actions}>
-              <GithubButton url="https://github.com/maksym-bohun/Electro_" />
+              <GithubButton url="https://github.com/maksym-bohun/ElectroApp" />
             </div>
           </div>
         </div>
