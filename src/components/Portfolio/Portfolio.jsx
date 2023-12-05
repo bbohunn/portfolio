@@ -153,7 +153,7 @@ const Portfolio = () => {
         <div
           className={`${classes["image-left"]} ${classes["project-container"]}`}
         >
-          <h3 className={classes["title-mobile"]}>Typing Trainer</h3>
+          <h3 className={classes["title-mobile"]}>Ftech</h3>
           <video
             width={500}
             style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
@@ -161,12 +161,37 @@ const Portfolio = () => {
             loop
             muted
           >
-            <source
-              src={require("../../videos/TypingTrainer.mp4")}
-              type="video/mp4"
-            />
+            <source src={require("../../videos/FTECH.MP4")} type="video/mp4" />
           </video>
 
+          <div className={classes["portfolio-section__info"]}>
+            <h3>Ftech Website</h3>
+            <p>
+              The bespoke website crafted for FTECH is an innovative web
+              application featuring a modern user interface. Developed using
+              React and Redux, it ensures optimal performance and efficient
+              state management for an excellent user experience. Styled
+              Components contribute to its contemporary design. The backend,
+              built on Node.js, offers scalability and adheres to modern
+              development standards. Notably, the website allows seamless
+              switching between English and Ukrainian languages, with automatic
+              detection and setting of the default language based on user
+              preferences. Additionally, Node.js integration automates email
+              notifications after user form submissions, further enhancing user
+              interaction and overall experience. This feature makes FTECH's web
+              product dynamic, user-friendly, and functionally rich.
+            </p>
+            <div className={classes.actions}>
+              <GithubButton url="https://github.com/maksym-bohun/Ftech" />
+              <DemoButton url="https://ftech.company/" />
+            </div>
+          </div>
+        </div>
+
+        <div
+          className={`${classes["image-right"]} ${classes["project-container"]}`}
+        >
+          <h3 className={classes["title-mobile"]}>Typing Trainer</h3>
           <div className={classes["portfolio-section__info"]}>
             <h3>Typing Trainer</h3>
             <p>
@@ -182,12 +207,37 @@ const Portfolio = () => {
               <DemoButton url="https://maksym-bohun.github.io/typing-training-app/" />
             </div>
           </div>
+
+          <video
+            width={500}
+            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+            autoPlay
+            loop
+            muted
+          >
+            <source
+              src={require("../../videos/TypingTrainer.mp4")}
+              type="video/mp4"
+            />
+          </video>
         </div>
 
         <div
-          className={`${classes["image-right"]} ${classes["project-container"]}`}
+          className={`${classes["image-left"]} ${classes["project-container"]}`}
         >
           <h3 className={classes["title-mobile"]}>Book Shop</h3>
+          <video
+            width={500}
+            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+            autoPlay
+            loop
+            muted
+          >
+            <source
+              src={require("../../videos/BookShop.mp4")}
+              type="video/mp4"
+            />
+          </video>
           <div className={classes["portfolio-section__info"]}>
             <h3>Book Shop</h3>
             <p>
@@ -203,25 +253,32 @@ const Portfolio = () => {
               <DemoButton url="https://maksym-bohun.github.io/book-shop/" />
             </div>
           </div>
-
-          <video
-            width={500}
-            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-            autoPlay
-            loop
-            muted
-          >
-            <source
-              src={require("../../videos/BookShop.mp4")}
-              type="video/mp4"
-            />
-          </video>
         </div>
 
         <div
-          className={`${classes["image-left"]} ${classes["project-container"]}`}
+          className={`${classes["image-right"]} ${classes["project-container"]}`}
         >
           <h3 className={classes["title-mobile"]}>Electro</h3>
+
+          <div className={classes["portfolio-section__info"]}>
+            <h3>Electro</h3>
+            <p>
+              Electro is an innovative application that simplifies the buying
+              and selling of electronics. You can easily find the desired item
+              or post a sales ad in just a few simple steps. The app offers a
+              user-friendly interface with filters based on categories, cities,
+              and other specifications to help you find exactly what you need.
+              In the Electro app, you always have easy access to the seller's
+              contact information, including their phone number. With this
+              feature, you can directly get in touch with the seller to ask
+              questions, discuss transaction details, or arrange a meeting. With
+              Electro, you can quickly and confidently discover and sell
+              electronics.
+            </p>
+            <div className={classes.actions}>
+              <GithubButton url="https://github.com/maksym-bohun/Electro_" />
+            </div>
+          </div>
           <video
             width={500}
             style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
@@ -234,32 +291,21 @@ const Portfolio = () => {
               type="video/mp4"
             />
           </video>
-
-          <div className={classes["portfolio-section__info"]}>
-            <h3>Electro</h3>
-            <p>
-              Electro is an innovative application that simplifies the buying
-              and selling of electronics. You can easily find the desired item
-              or post a sales ad in just a few simple steps. The app offers a
-              user-friendly interface with filters based on categories, cities,
-              and other specifications to help you find exactly what you need.
-              In the Electro app, you always have easy access to the seller's
-              contact information, including their phone number. You can also
-              chat width seller in real time. With this feature, you can
-              directly get in touch with the seller to ask questions, discuss
-              transaction details, or arrange a meeting. With Electro, you can
-              quickly and confidently discover and sell electronics.
-            </p>
-            <div className={classes.actions}>
-              <GithubButton url="https://github.com/maksym-bohun/ElectroApp" />
-            </div>
-          </div>
         </div>
 
         <div
           className={`${classes["image-left"]} ${classes["project-container"]}`}
         >
           <h3 className={classes["title-mobile"]}>Github Kanban Board</h3>
+          <video
+            width={500}
+            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+            autoPlay
+            loop
+            muted
+          >
+            <source src={require("../../videos/kanban.mov")} type="video/mp4" />
+          </video>
           <div className={classes["portfolio-section__info"]}>
             <h3>Github Kanban Board</h3>
             <p>
@@ -275,31 +321,12 @@ const Portfolio = () => {
               <DemoButton url="https://maksym-bohun.github.io/kanban-board/" />
             </div>
           </div>
-
-          <video
-            width={500}
-            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-            autoPlay
-            loop
-            muted
-          >
-            <source src={require("../../videos/kanban.mov")} type="video/mp4" />
-          </video>
         </div>
 
         <div
           className={`${classes["image-right"]} ${classes["project-container"]}`}
         >
           <h3 className={classes["title-mobile"]}>Todo-list</h3>
-          <video
-            width={500}
-            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-            autoPlay
-            loop
-            muted
-          >
-            <source src={require("../../videos/Todo.mov")} type="video/mp4" />
-          </video>
 
           <div className={classes["portfolio-section__info"]}>
             <h3>Todo-list</h3>
@@ -317,6 +344,15 @@ const Portfolio = () => {
               <DemoButton url="https://maksym-bohun.github.io/my-todo-list/" />
             </div>
           </div>
+          <video
+            width={500}
+            style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+            autoPlay
+            loop
+            muted
+          >
+            <source src={require("../../videos/Todo.mov")} type="video/mp4" />
+          </video>
         </div>
       </div>
     </section>
