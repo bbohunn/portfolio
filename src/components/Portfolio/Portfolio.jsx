@@ -8,7 +8,9 @@ const Portfolio = () => {
 
   return (
     <section
-      className={`${classes["portfolio-section"]} centered-2`}
+      className={`${classes["portfolio-section"]}  ${
+        currentLabel === "mobile" ? "centered--mobile" : "centered-2"
+      }`}
       id="projects"
     >
       <h2>My projects</h2>
@@ -104,7 +106,7 @@ const Portfolio = () => {
               muted
             >
               <source
-                src={require("../../videos/TypingTrainer.mp4")}
+                src={require("../../videos/TypingTrainer.MP4")}
                 type="video/mp4"
               />
             </video>
@@ -122,7 +124,7 @@ const Portfolio = () => {
               muted
             >
               <source
-                src={require("../../videos/BookShop.mp4")}
+                src={require("../../videos/BookShop.MP4")}
                 type="video/mp4"
               />
             </video>
@@ -253,47 +255,114 @@ const Portfolio = () => {
         <div
           className={`${classes["portfolio-section__projects"]} ${classes["portfolio-section__projects--mobile"]}`}
         >
-          <div
-            className={`${classes["image-left"]} ${classes["project-container"]}`}
-          >
-            <h3 className={classes["title-mobile"]}>Hometask Tracker</h3>
-            <video
-              // width={200}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)", width: "250px" }}
-              autoPlay
-              loop
-              muted
+          <div>
+            <div
+              className={`${classes["image-left"]} ${classes["project-container"]}`}
             >
-              <source
-                src={require("../../videos/hometaskTracker.mp4")}
-                type="video/mp4"
-              />
-            </video>
+              <h3 className={classes["title-mobile"]}>Hometask Tracker</h3>
+              <video
+                // width={200}
+                style={{
+                  boxShadow: "0 0 10px rgba(0,0,0,0.2)",
+                  width: "250px",
+                }}
+                autoPlay
+                loop
+                muted
+              >
+                <source
+                  src={require("../../videos/hometaskTracker.mp4")}
+                  type="video/mp4"
+                />
+              </video>
 
-            <div className={classes["portfolio-section__info"]}>
-              <h3>Hometask Tracker</h3>
-              <p>
-                Introducing my first mobile app: the Hometask Tracker app,
-                developed with React Native, Redux Toolkit, and Async Storage
-                library. This mobile application streamlines academic task
-                management by offering four predefined folders: labs, homework,
-                presentations, and other. Users can effortlessly add tasks to
-                these folders, ensuring they stay organized and focused. The app
-                provides a clear overview of task counts within each folder,
-                helping users prioritize their workload effectively. With
-                features to update and delete tasks, users can easily maintain
-                an accurate task list. Additionally, the app allows for the
-                deletion of folders, providing flexibility as academic needs
-                evolve. Leveraging Async Storage, all data is securely stored on
-                the device, safeguarding privacy and ensuring accessibility.
-                Experience enhanced productivity and organization with the
-                Hometask Tracker app – essential companion for academic success.
-              </p>
+              <div className={classes["portfolio-section__info"]}>
+                <h3>Hometask Tracker</h3>
+                <p>
+                  Introducing my first mobile app: the Hometask Tracker app,
+                  developed with React Native, Redux Toolkit, and Async Storage
+                  library. This mobile application streamlines academic task
+                  management by offering four predefined folders: labs,
+                  homework, presentations, and other. Users can effortlessly add
+                  tasks to these folders, ensuring they stay organized and
+                  focused. The app provides a clear overview of task counts
+                  within each folder, helping users prioritize their workload
+                  effectively. With features to update and delete tasks, users
+                  can easily maintain an accurate task list. Additionally, the
+                  app allows for the deletion of folders, providing flexibility
+                  as academic needs evolve. Leveraging Async Storage, all data
+                  is securely stored on the device, safeguarding privacy and
+                  ensuring accessibility. Experience enhanced productivity and
+                  organization with the Hometask Tracker app – essential
+                  companion for academic success.
+                </p>
+              </div>
+            </div>
+            <div className={classes.actions}>
+              <GithubButton url="https://github.com/maksym-bohun/hometasks-tracker" />
+              {/* <DemoButton url="https://ftech.company/" /> */}
             </div>
           </div>
-          <div className={classes.actions}>
-            <GithubButton url="https://github.com/maksym-bohun/hometasks-tracker" />
-            {/* <DemoButton url="https://ftech.company/" /> */}
+
+          <div>
+            <div
+              className={`${classes["image-left"]} ${classes["project-container"]}`}
+            >
+              <div className={classes["portfolio-section__info"]}>
+                <h3>Social Network</h3>
+                <p>
+                  Introducing my new project: a dynamic social network designed
+                  to bring people together in a secure and engaging online
+                  environment. With this platform, users can seamlessly register
+                  and log in, personalize their profiles with chosen avatars and
+                  nicknames, and connect with others who share their interests.
+                  One of the standout features of my social network is the
+                  ability to create and share posts, complete with images or
+                  text-only content, fostering meaningful interactions among
+                  users. Whether it's expressing thoughts, sharing experiences,
+                  or showcasing creativity, this platform provides a space for
+                  users to engage authentically. Finding friends and connecting
+                  with them has never been easier. Users can search for others
+                  by their usernames and initiate friendships, enabling them to
+                  stay connected and build relationships within the community.
+                  Additionally, messaging and chat functionalities allow users
+                  to communicate in real-time, facilitating deeper connections
+                  and fostering a sense of belonging. Interactivity is at the
+                  core of my platform. Users can express their appreciation for
+                  posts by liking or disliking them, leaving comments to spark
+                  discussions, and sharing interesting content with their
+                  friends. Notifications ensure that users stay informed about
+                  interactions on their posts, keeping the conversation alive
+                  and engaging. Security is paramount in my social network. All
+                  passwords are encrypted to safeguard user information,
+                  providing peace of mind and a secure online experience.
+                  Leveraging cutting-edge technologies such as React Native,
+                  Node.js, and MongoDB, I have built a robust and scalable
+                  platform that delivers a seamless user experience across
+                  devices.
+                </p>
+              </div>
+              <h3 className={classes["title-mobile"]}>Social Network</h3>
+              <video
+                // width={200}
+                style={{
+                  boxShadow: "0 0 10px rgba(0,0,0,0.2)",
+                  width: "250px",
+                }}
+                autoPlay
+                loop
+                muted
+              >
+                <source
+                  src={require("../../videos/Social_network.mov")}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className={classes.actions}>
+              <GithubButton url="https://github.com/maksym-bohun/Social-network" />
+              {/* <DemoButton url="https://ftech.company/" /> */}
+            </div>
           </div>
         </div>
       )}

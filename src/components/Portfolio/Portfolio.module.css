@@ -25,7 +25,7 @@
 
 .portfolio-section__info {
   font-size: 1.8rem;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   /* text-align: center; */
 }
 
@@ -42,7 +42,7 @@
 }
 
 .portfolio-section__projects--mobile .project-container {
-  gap: 5rem;
+  gap: 10rem;
 }
 
 .portfolio-section__projects--mobile .actions a {
