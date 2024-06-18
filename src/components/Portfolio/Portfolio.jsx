@@ -72,7 +72,7 @@ const Portfolio = () => {
                 functionally rich.
               </p>
               <div className={classes.actions}>
-                <GithubButton url="https://github.com/maksym-bohun/Ftech" />
+                {/* <GithubButton url="https://github.com/maksym-bohun/Ftech" /> */}
                 <DemoButton url="https://ftech.company/" />
               </div>
             </div>
@@ -81,6 +81,56 @@ const Portfolio = () => {
           <div
             className={`${classes["image-right"]} ${classes["project-container"]}`}
           >
+            <div className={classes["portfolio-section__info"]}>
+              <h3>Go-teco Website</h3>
+              <p>
+                This project is a dynamic and responsive website developed for
+                the company go-te.co. Utilizing React.js for the front-end, I
+                implemented a modern and user-friendly interface. SCSS was used
+                for efficient and scalable styling. For the back-end, I employed
+                Node.js and integrated Nodemailer to handle email communications
+                seamlessly. I also implemented i18n for internationalization,
+                enabling easy translation and localization of content. The
+                entire application is hosted on AWS LightSail, ensuring reliable
+                and scalable performance. This combination of technologies
+                delivers a robust platform that enhances user experience and
+                supports the company's online presence effectively.
+              </p>
+              <div className={classes.actions}>
+                {/* <GithubButton url="https://github.com/maksym-bohun/Ftech" /> */}
+                <DemoButton url="https://go-te.co/" />
+              </div>
+            </div>
+            <h3 className={classes["title-mobile"]}>Ftech</h3>
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source
+                src={require("../../videos/Go-teco.mov")}
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <div
+            className={`${classes["image-left"]} ${classes["project-container"]}`}
+          >
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source
+                src={require("../../videos/TypingTrainer.MP4")}
+                type="video/mp4"
+              />
+            </video>
             <h3 className={classes["title-mobile"]}>Typing Trainer</h3>
             <div className={classes["portfolio-section__info"]}>
               <h3>Typing Trainer</h3>
@@ -97,37 +147,13 @@ const Portfolio = () => {
                 <DemoButton url="https://maksym-bohun.github.io/typing-training-app/" />
               </div>
             </div>
-
-            <video
-              width={500}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-              autoPlay
-              loop
-              muted
-            >
-              <source
-                src={require("../../videos/TypingTrainer.MP4")}
-                type="video/mp4"
-              />
-            </video>
           </div>
 
           <div
-            className={`${classes["image-left"]} ${classes["project-container"]}`}
+            className={`${classes["image-right"]} ${classes["project-container"]}`}
           >
             <h3 className={classes["title-mobile"]}>Book Shop</h3>
-            <video
-              width={500}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-              autoPlay
-              loop
-              muted
-            >
-              <source
-                src={require("../../videos/BookShop.MP4")}
-                type="video/mp4"
-              />
-            </video>
+
             <div className={classes["portfolio-section__info"]}>
               <h3>Book Shop</h3>
               <p>
@@ -144,12 +170,36 @@ const Portfolio = () => {
                 <DemoButton url="https://maksym-bohun.github.io/book-shop/" />
               </div>
             </div>
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source
+                src={require("../../videos/BookShop.MP4")}
+                type="video/mp4"
+              />
+            </video>
           </div>
 
           <div
-            className={`${classes["image-right"]} ${classes["project-container"]}`}
+            className={`${classes["image-left"]} ${classes["project-container"]}`}
           >
             <h3 className={classes["title-mobile"]}>Electro</h3>
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source
+                src={require("../../videos/Electro.mp4")}
+                type="video/mp4"
+              />
+            </video>
 
             <div className={classes["portfolio-section__info"]}>
               <h3>Electro</h3>
@@ -170,36 +220,13 @@ const Portfolio = () => {
                 <GithubButton url="https://github.com/maksym-bohun/Electro_" />
               </div>
             </div>
-            <video
-              width={500}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-              autoPlay
-              loop
-              muted
-            >
-              <source
-                src={require("../../videos/Electro.mp4")}
-                type="video/mp4"
-              />
-            </video>
           </div>
 
           <div
-            className={`${classes["image-left"]} ${classes["project-container"]}`}
+            className={`${classes["image-right"]} ${classes["project-container"]}`}
           >
             <h3 className={classes["title-mobile"]}>Github Kanban Board</h3>
-            <video
-              width={500}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-              autoPlay
-              loop
-              muted
-            >
-              <source
-                src={require("../../videos/kanban.mov")}
-                type="video/mp4"
-              />
-            </video>
+
             <div className={classes["portfolio-section__info"]}>
               <h3>Github Kanban Board</h3>
               <p>
@@ -215,12 +242,33 @@ const Portfolio = () => {
                 <DemoButton url="https://maksym-bohun.github.io/kanban-board/" />
               </div>
             </div>
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source
+                src={require("../../videos/kanban.mov")}
+                type="video/mp4"
+              />
+            </video>
           </div>
 
           <div
-            className={`${classes["image-right"]} ${classes["project-container"]}`}
+            className={`${classes["image-left"]} ${classes["project-container"]}`}
           >
             <h3 className={classes["title-mobile"]}>Todo-list</h3>
+            <video
+              width={500}
+              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
+              autoPlay
+              loop
+              muted
+            >
+              <source src={require("../../videos/Todo.mov")} type="video/mp4" />
+            </video>
 
             <div className={classes["portfolio-section__info"]}>
               <h3>Todo-list</h3>
@@ -238,15 +286,6 @@ const Portfolio = () => {
                 <DemoButton url="https://maksym-bohun.github.io/my-todo-list/" />
               </div>
             </div>
-            <video
-              width={500}
-              style={{ boxShadow: "0 0 10px rgba(0,0,0,0.2)" }}
-              autoPlay
-              loop
-              muted
-            >
-              <source src={require("../../videos/Todo.mov")} type="video/mp4" />
-            </video>
           </div>
         </div>
       )}

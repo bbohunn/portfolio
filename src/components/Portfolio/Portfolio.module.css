@@ -109,10 +109,14 @@
   transition: all 0.3s;
 }
 
-@media screen and (min-width: 500px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .portfolio-section {
     width: 80%;
     margin-bottom: 7rem;
+  }
+
+  .portfolio-section__projects--mobile {
+    margin: 0;
   }
 
   .portfolio-section h2 {
