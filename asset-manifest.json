@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2ac8347d.css",
-    "main.js": "/portfolio/static/js/main.0fe2db11.js",
+    "main.css": "/portfolio/static/css/main.fa695e9e.css",
+    "main.js": "/portfolio/static/js/main.eafc4177.js",
     "static/media/TypingTrainer.MP4": "/portfolio/static/media/TypingTrainer.004f870ff11d10ce4b72.MP4",
     "static/media/BookShop.MP4": "/portfolio/static/media/BookShop.a0e549545fc4456c4ac9.MP4",
     "static/media/FTECH.MP4": "/portfolio/static/media/FTECH.b65931ac9cb8659105f7.MP4",
+    "static/media/Go-teco.mov": "/portfolio/static/media/Go-teco.82cad3d7ed0607641022.mov",
     "static/media/kanban.mov": "/portfolio/static/media/kanban.9ea8dfc3463f5f82093e.mov",
     "static/media/Electro.mp4": "/portfolio/static/media/Electro.cff2bcd86b141e875191.mp4",
     "static/media/hometaskTracker.mp4": "/portfolio/static/media/hometaskTracker.cbb79a7f348849e55ed0.mp4",
@@ -29,11 +30,11 @@
     "static/media/telegram.png": "/portfolio/static/media/telegram.20a60b580e642d0a24f1.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.2ac8347d.css.map": "/portfolio/static/css/main.2ac8347d.css.map",
-    "main.0fe2db11.js.map": "/portfolio/static/js/main.0fe2db11.js.map"
+    "main.fa695e9e.css.map": "/portfolio/static/css/main.fa695e9e.css.map",
+    "main.eafc4177.js.map": "/portfolio/static/js/main.eafc4177.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ac8347d.css",
-    "static/js/main.0fe2db11.js"
+    "static/css/main.fa695e9e.css",
+    "static/js/main.eafc4177.js"
   ]
 }
